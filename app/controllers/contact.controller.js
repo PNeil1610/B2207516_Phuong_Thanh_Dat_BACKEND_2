@@ -9,6 +9,10 @@ exports.findOne = (req, res) => {
     res.send({ message: 'findOne handler' });
 };  
 
+exports.findAllFavorite = (req, res) => {
+    res.send({ message: 'findAllFavorite handler' });
+}; 
+
 exports.update = (req, res) => {
     res.send({ message: 'update handler' });
 };
